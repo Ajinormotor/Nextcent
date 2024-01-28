@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container  max-w-full">
+        <!--------HEADER SECTION------>
+        <header>
+            <div class="header__wrapper  flex p-4 justify-around  items-center">
+
+                <div class="logo">
+                    <img src="Image/Logo@3x.png" alt="">
+                </div>
+
+                <i class="ri-menu-2-line icon "  id="icon"  onclick="showMenu()"></i>
+
+                <div class="navlink  flex  justify-between"  id="navlink">
+
+                    <i class="ri-close-line  icons  flex justify-end  items-end  pt-4 pr-5 "  onclick="hideMenu()"></i>
+
+                    <ul  class="navlink__menu  flex gap-5  cursor-pointer">
+                        <li  class="text-lg"><a href="#">Home</a></li>
+                        <li class="text-lg"><a href="#">Features</a></li>
+                        <li class="text-lg"><a href="#">Community</a></li>
+                        <li class="text-lg"><a href="#">Blog</a></li>
+                        <li class="text-lg"><a href="#">Pricing</a></li>
+                    </ul>
+
+                    <div  class="px-6">
+                        <button class="navlink__btn  text-white">Register Now  <i class="ri-arrow-right-fill"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+
+
+         <!--------HERO  SECTION------>
+
+         <div class="hero">
+
+            <div class="hero__wrapper  flex  justify-around">
+
+            <div class="hero__text">
+                <h1  class="text-5xl  opacity-90  font-black  pb-5 ">Lessons and Insights <br  /> <span  class="text-green-500  pt-3  font-normal">From 8 yers</span></h1>
+
+                <p  class="opacity-90 pb-4">Where to grow your business as a photographer site or social media?</p>
+
+                
+                        <button class="hero__btn  text-white ">Register   <i class="ri-arrow-right-fill"></i>
+                        </button>
+                  
+
+            </div>
+
+            <div class="hero__img">
+      <img src="Image/Illustration.png" alt="">
+            </div>
+    
+            </div>
+
+         </div>
+
+           <!--------CLIENTS  SECTION------>
+
+           <div class="client  flex flex-col  items-center pt-6 pb-28">
+
+            <div class="client__heading text-center  pb-5">
+  <h1>Our Clients</h1>
+  <p>We have been working with some Fortune 500+ clients</p>
+            </div>
+
+<div class="client__wrapper  flex  max-w-full">
+    <ul class="client__menu flex gap-5  max-w-full  justify-between">
+        <li><img src="Image/Icon (1).png" alt=""></li>
+        <li><img src="Image/Icon (1).png" alt=""></li>
+        <li><img src="Image/Icon (1).png" alt=""></li>
+        <li><img src="Image/Icon (1).png" alt=""></li>
+        <li><img src="Image/Icon (1).png" alt=""></li>
+        <li><img src="Image/Icon (1).png" alt=""></li>
+
+    </ul>
+</div>
+
+           </div>
+
+           <!-----MANAGE SECTION-------->
+
+           <div class="manage pt-30">
+
+            <div class="manage__heading text-center  pb-5">
+                <h1>Manage your entire community <br /> in a sinle system</h1>
+                <p>Who is Nextcent suitable for</p>
+                          </div>
+
+
+                 <div class="manage__wrapper  flex justify-around">
+
+              <div class="manage__box flex flex-col text-center items-center">
+  <img src="Image/Icon.png" alt=""  class="w-24">
+  <h1  class="font-semibold">Membership <br />Organisations</h1>
+  <p>Our membership management software provides full atomation
+     of membership renewals and paymeents</p>
+                  </div>
+
+                  <div class="manage__box  flex flex-col text-center items-center">
+                    <img src="Image/Icon (2).png" alt=""  class="w-24">
+                    <h1 class="font-semibold">National <br />Associations</h1>
+                    <p>Our membership management software provides full atomation
+                        of membership renewals and paymeents</p>
+                                    </div>
+
+                                    <div class="manage__box  flex flex-col text-center items-center">
+                                        <img src="Image/Icon (1).png" alt=""  class="w-24">
+                                        <h1  class="font-semibold">Clubs And <br /> Groups</h1>
+                                        <p>Our membership management software provides full atomation
+                                            of membership renewals and paymeents</p>
+                                                        </div>
+
+                  
+
+
+
+                          </div>
+            
+           </div>
+
+
+
+          <!------UNSEEN SECTION------>
+
+          <div class="unseen  pt-32 max-w-full">
+
+            <div class="unseen__wrapper  flex  ">
+
+
+                <div class="unseen__pics">
+                    <img src="Image/Frame 35.png" alt="">
+                </div>
+
+                <div class="unseen__text  pt-4">
+                    <h1  class="font-bold text-xl">The unseen of spending three <br  />years at pixelgrade</h1>
+      <p class="opacity-80  pt-5 pb-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci explicabo voluptas a nulla tenetur ipsum. Saepe, 
+       laborum, modi nesciunt magnam cupiditate, non rerum voluptas doloremque possimus temporibus nobis ab sequi.</p>
+       <button class="hero__btn  text-white ">Learn More  <i class="ri-arrow-right-fill"></i>
+       </button>
+ 
+                </div>
+            </div>
+            
+          </div>
+
+           <!------HELPING  SECTION------>
+
+           <div class="helping  mt-32">
+            <div class="helping__wrapper flex  items-center justify-between   p-20 ">
+
+                <div class="helping__text">
+                    <h1 class="font-bold  text-3xl">Helping a local<br />
+                    <span  class="text-green-500">business reinvent itself</span></h1>
+                    <p  class="opacity-90">We reached here here with hard work and dedication</p>
+                </div>
+
+                <div class="helping__box">
+
+                    <div class="helpingbox__wrapper  flex  p-5">
+                        <div class="flex gap-4">
+                <img src="Image/Icon (4).png" alt="">
+                <h1 class="px-5  font-medium">2,245,341  <br  /> <p class="opacity-90">Members</p></h1>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <img src="Image/Icon (4).png" alt="">
+                            <h1 class="px-5  font-medium">2,245,341  <br  /> <p class="opacity-90">Members</p></h1>
+                                    </div>
+
+                       
+
+                        <div>
+
+                        </div>
+                    </div>
+
+                    <div class="helpingbox__wrapper  flex p-5">
+                        <div class="flex gap-4">
+                <img src="Image/Icon (4).png" alt="">
+                <h1 class="px-5 font-medium">2,245,341  <br  /> <p class="opacity-90">Members</p></h1>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <img src="Image/Icon (4).png" alt="">
+                            <h1 class="px-5  font-medium">2,245,341  <br  /> <p class="opacity-90">Members</p></h1>
+                                    </div>
+
+                        <div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+           </div>
+
+           
+          
+          <!------HOW TO DESIGN SECTION------>
+
+          <div class="unseen  pt-32 max-w-full">
+
+            <div class="unseen__wrapper  flex  ">
+
+
+                <div class="unseen__pics">
+                    <img src="Image/pics.jpg" alt="">
+                </div>
+
+                <div class="unseen__text  pt-4">
+                    <h1  class="font-bold text-xl">How to design your site footer we did</h1>
+      <p class="opacity-80  pt-5 pb-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci explicabo voluptas a nulla tenetur ipsum. Saepe, 
+       laborum, modi nesciunt magnam cupiditate, non rerum voluptas doloremque possimus temporibus nobis ab sequi.</p>
+       <button class="hero__btn  text-white ">Learn More  <i class="ri-arrow-right-fill"></i>
+       </button>
+ 
+                </div>
+            </div>
+            
+          </div>
+          
+
+            <!------MANY TALK SECTION------>
+
+            <div class="talk  mt-32 max-w-full">
+
+                <div class="unseen__wrapper  flex  p-16">
+    
+    
+                    <div class="unseen__pics">
+                        <img src="Image/image 9.png" alt="">
+                    </div>
+    
+                    <div class="unseen__text  pt-4">
+                       
+          <p class="opacity-80   pb-5"> Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt 
+            ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, 
+            at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue
+             ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
+              Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate 
+            odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+         <h1 class="text-green-400 font-bold  pb-1">Tim Smith</h1>
+          <span  class="font-normal opacity-85  text-gray-400 pb-6">British Dragon Boat Racing Association</span>
+
+          <div>
+            <ul  class="flex gap-4 items-center justify-between pt-2">
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><img src="Image/Icon (1).png" alt=""  class="talk__pics"></li>
+                <li><a href="#"  class="text-green-600  font-bold">Meet all cusomers <i class="ri-arrow-right-fill"></i> </a></li>
+            </ul>
+          </div>
+     
+                    </div>
+                </div>
+                
+              </div>
+
+
+                <!------CARING SECTION------>
+              <div class="caring">
+
+                <div class="caring__heading text-center mt-12 pb-5">
+                    <h1>Caring is the new marketing</h1>
+                    <p  class="opacity-80">The Nextcent blog is the best place to read about the latest membership insights,<br  />
+                    trends and more. See whos joining the community, read about how our community<br  />
+                are increasing their memebership income and lots more.</p>
+                              </div>
+
+                      <div class="caring__wrapper  flex mt-6 justify-between  p-8">
+
+                        <div class="caring__box  flex  flex-col  text-center items-center ">
+                            <div  class="caring__pics">
+                                <img src="Image/image 18.png" alt="">
+                            </div>
+                        
+                            <div  class=" caring__text ">
+                                <h1  class="pb-7">Creating Streamlined <br />
+                                Safeguard Processes with OneRen</h1>
+
+                                <a href="#"  class="text-green-500">Readmore</a>
+
+                            </div>
+                        </div>
+
+                        <div class="caring__box  flex  flex-col  text-center items-center">
+                            <div  class="caring__pics">
+                                <img src="Image/image 19.png" alt="">
+                            </div>
+                        
+                            <div  class=" caring__text ">
+                                <h1  class="pb-7">Creating Streamlined <br />
+                                Safeguard Processes with OneRen</h1>
+
+                                <a href="#"  class="text-green-500">Readmore</a>
+
+                            </div>
+                        </div>
+
+                        <div class="caring__box  flex  flex-col  text-center items-center">
+                            <div  class="caring__pics">
+                                <img src="Image/image 20.png" alt="">
+                            </div>
+                        
+                            <div  class="caring__text ">
+                                <h1  class="pb-7">Creating Streamlined <br />
+                                Safeguard Processes with OneRen</h1>
+
+                                <a href="#"  class="text-green-500">Readmore</a>
+
+                            </div>
+                        </div>
+
+                              </div>
+                
+              </div>
+
+
+
+    </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
